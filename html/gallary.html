@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title></title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+    
+        body {
+            font-family: sans-serif;
+    
+    
+        }
+    
+        nav {
+    
+            background-color: plum;
+            min-height: 10vh;
+            width: 100%;
+            position: fixed;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+    
+        .logo {
+            font-size: 40px;
+            text-transform: uppercase;
+            line-height: 80px;
+            padding: 0 100px;
+            font-weight: bold;
+            margin-right: 20rem;
+            /* flex: 1 1 30rem;  */
+    
+        }
+    
+        nav ul {
+            /* float: right; */
+            justify-content: space-around;
+            display: flex;
+            /* flex: 1 1 30rem; */
+    
+    
+    
+        }
+    
+    
+        nav ul li {
+    
+    
+            /* display: inline-block; */
+            line-height: 80px;
+            margin: 0 5px;
+    
+    
+        }
+    
+        nav ul li a {
+            color: black;
+            font-weight: bolder;
+            padding: 7px 13px;
+            font-size: 17px;
+            border-radius: 3px;
+            text-transform: uppercase;
+    
+    
+        }
+    
+        .checkbtn {
+            font-size: 10px;
+            color: white;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+    
+    
+        }
+    
+        #check {
+            display: none;
+        }
+    
+    
+    
+    
+        li a:hover {
+            background-color: purple;
+            transition: 2s;
+        }
+    
+        .active {
+            background-color: plum;
+        }
+    
+        @media screen and (max-width:1015px) {
+            label.logo {
+                font-size: 30px;
+                padding: 2rem;
+    
+            }
+    
+            nav ul li a {
+                font-size: 16px;
+    
+            }
+    
+        }
+    
+        @media(max-width:858px) {
+            .checkbtn {
+                display: block;
+            }
+        }
+    
+        ul {
+            position: fixed;
+        }
+    
+        /* width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center; 
+        transition: all .5s;
+    
+    } */
+    
+        /* nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    
+        }
+        nav ul li a{
+            font-size: 20px;
+        }
+    
+    
+    a:hover,a.active{
+        background: none;
+        color: #0082eb;
+    }
+    
+    #check:checked~ul{
+        left: 0;
+    } */
+        /* section{
+        background: url("/images/pexelbackground3.webp");
+        background-size: cover;
+        height: calc(100vh-80px);
+    } */
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+<div class="gallary">
+    <img src="../images/dark blue.jpg" alt="" srcset="">
+    <img src="../images/blue and pink.jpg" alt="">
+    <img src="../images/blue cake 2.jpg" alt="" srcset="">
+    <img src="../images/blue.jpg" alt="">
+</div>
+<br>
+<br>
+
+
+    <div class="card">
+        <div class="gt">
+            <img src="/images/pink tasty.png" alt="">
+            <img src="/images/pink.jpg" alt="">
+            <img src="/images/wedding-cake-4002320.jpg" alt="">
+            <img src="/images/white and pink cake.webp" alt="">
+
+        </div>
+        </div>
+    </div>
+</header>
+</body>
+</html>
